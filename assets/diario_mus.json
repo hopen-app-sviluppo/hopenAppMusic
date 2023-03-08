@@ -1,0 +1,295 @@
+{
+    "form_id": 1,
+    "form_name": "Diario Musicoterapia",
+    "form_desc": "Segue una Descrizione generale sulle specifiche del diario relativo alla Musicoterapia.",
+    "tutorial_title": "Tutorial Diario",
+    "sezioni": [
+      {
+        "sezione_id": 0,
+        "sezione_name": "Sezione 1",
+        "sezione_title": "Setting dell'incontro",
+        "sezione_subtitle": "",
+        "sezione_desc": "",
+        "domande": [
+          {
+            "domanda_id": 0,
+            "domanda_title":
+                "Svolto in: ",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "label": ["stanza di musicoterapia", "stanza multisensoriale", "nella stanza della classe di appartenenza", "altro"],
+            "type":"label"
+          },
+          {
+            "domanda_id": 1,
+            "domanda_title":
+            "Attività",
+            "domanda_desc":
+            "",
+            "is_obbligatoria": false,
+            "check_value": ["Anamnesi","Valutazione","Trattamento individuale","Trattamento di gruppo", "contatti o riunioni","Stesura relazione","Restituzione","Preparazione materiale","Riunione organizzativa-amministrativa","Formazione","Sostituzione","Altro"],
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 2,
+            "domanda_title":
+                "In collaborazione con",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value": ["Amministrativi","Assistente sociale","Coordinatore Psicopedagogico","Educatore","Fisioterapista","Logopedista","Massofisioterapista","Musicoterapista","Neurologo-Direttore Sanitario","Psicologa","Piscomotricista","Responsabile qualità","Altro"],
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 3,
+            "domanda_title":
+                "Osservazioni Settings",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "text":"",
+            "type":"text"
+          }
+        ]
+      },
+      {
+        "sezione_id": 1,
+        "sezione_name": "Sezione2",
+        "sezione_title": "Stato umorale individuale",
+        "sezione_subtitle": "",
+        "sezione_desc": "Indicare lo stato in cui si trova l'assistito/gruppo nel momento in cui entra nella stanza di musicoterapia (o viene prelevato dalla propria classe). Indicare lo 'stato' osservato seguendo la legenda qui sotto indicata: 1 inquieto/arrabbiato: persona in uno stato di ansioso turbamento e/o che prova una profonda avversione verso qualcosa o qualcuno; 2 eccitato/euforico: persona che si trova in uno stato di concitata agitazione o di orgasmo persona visibilmente soddisfatta e piena di vivacità; 3 passivo/triste: persona che si adegua a una volontà esterna, inerte, chiusa in se stessa che non accenna a collaborare ; 4 sereno persona sgombra da preoccupazioni, passioni o affanni.",
+        "domande": [
+          {
+            "domanda_id": 7,
+            "domanda_title":
+                "Musicoterapia Basale",
+            "domanda_desc":"",
+            "is_obbligatoria": false,
+            "check_value": ["vibratoria (voce, frequesze, letto ad acqua, letto sonoro, tubo d'acqua)","somatica (micro movimenti, pressione ritmica, frequenze)","vestibolare (cullare, dondolare, circolare, fonosimbolica)","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 8,
+            "domanda_title":
+                "Musicoterapia Recettiva",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "check_value": ["white noise","suoni della natura","cantautorato","pop","classica","jazz","Gordon","bambini","paese di origine","anamnesi psico sonora","stanza multisensoriale","improvvisazioni registrate","canti composti in relazione - registrati","musica prodotta dal musicoterapista","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 9,
+            "domanda_title":
+                "Musicoterapia attiva",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "check_value":["improvvisazione ritmica corpo","improvvisazione strumentale ritmica","canto ritmico","improvvisazione strumentale melodica","canto prosodico","canto prosodico su imitazioni vocalizzo","canto canzoni","canto canzoni con supporto visivo (CAA)","canto canzoni composte in relazione","composizione","registrazione (e riascolto)","lavoro sulle dinamiche (forte-piano, veloce-lento, acuto-grave, suono-silenzio)","lavoro sui timbri","ALTRO" ],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 10,
+            "domanda_title":
+                "Altre attività",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "check_value":["visiva/ascolto - stanza multisensoriale","visiva/ascolto - monitor pc","visiva/ascolto - ipad","danza/movimento espressivo","manipolazione (plastica, legno, carta, pongo)","disegno","lettura (narrazione di una storia)","dialogo verbale","CAA","gioco libero autogestito","ALTRO:"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 11,
+            "domanda_title":
+                "Osservazioni attività",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "text":"",
+
+            "type":"text"
+          },
+          {
+            "domanda_id": 12,
+            "domanda_title":
+                "Relazione",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["migliorare e consolidare la relazione con il terapista","migliorare e consolidare la relazione nel gruppo","acquisire capacità negli scambi interattivi","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 13,
+            "domanda_title":
+                "Spazio",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["migliorare il rapporto con l'ambiente","migliorare il rapporto con il proprio corpo","migliorare il rapporto con gli oggetti","migliorare la manipolazione/esplorazione motoria","incrementare il controllo motorio","attivare e sviluppare schemi psicomotori","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 14,
+            "domanda_title":
+                "Tempo",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["migliorare il rispetto dei turni d'interazione","migliorare il concetto di inzio e fine dell'attività","FE - migliorare la memorizzazione delle regole del contesto","FE - migliorare la pianificazione dei singoli step per il raggiungimento dell'obbiettivo (memoria di ciò che è stato eseguito)","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 15,
+            "domanda_title":
+                "Espressività",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["migliorare l'espressione delle emozioni (verbale/non verbale/ para verbale)","migliorare la regolazione delle emozioni (lavoro sulle intensità, sulla forma musicale","incrementare i momenti in cui l'assistito può narrare la sua 'storia'","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 16,
+            "domanda_title":
+                "Emotività",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["ridurre l'ansia","scaricare l'aggressività","aumentare l'autostima","incrementare momenti di rilassamento","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 17,
+            "domanda_title":
+                "Comunicazione",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value": ["potenziare l'intenzionalità comunicativa (mostrare, dare, indicare)","migliorare aspetti comunicativi emergenti/gesto deittico performativo (indicare per richiedere e/o dichiarare, triangolazione)","migliorare la capacità di orientamento nella comunicazione (stabilere un contatto oculare periodico, mantenere un agiusta distanza, lavoro sulle posture)","migliorare le capacità espressive-linguistiche","altro"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 18,
+            "domanda_title":
+                "Comportamento",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value": ["FE - inibire le risposte inadeguate (automatiche)","ridurre stereotipie e manierismi","ridurre comportamenti disadattivi","altro"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 19,
+            "domanda_title":
+                "Attenzione",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+           "check_value": ["FE - incrementare l'attenzione SELETTIVA (es. trova lo strumento verde in mezzo a gli altri strumenti)","FE - incrementare l'attenzione DIVISA (es. suoniamo il tamburo stando attenti alla intensità, velocità, agli stop and go, alle regole che da il mt)","FE - incrementare l'attenzione SOSTENUTA (es. suoniamo un solo strumento per il tempo dell'incontro)","FE - incrementare l'attenzione FOCALIZZATA (es. studiamo le parole e la melodia di un solo brano per il tempo dell'incontro)","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 20,
+            "domanda_title":
+                "Cognitivo",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["FE - migliorare la capacità di adattarsi a nuove situazioni di apprendimento (flessibiltà cognitiva)","FE - migliorare la capacità di eseguire comportamenti finalizzati ad un obbiettivo seguendo tappe ordinate e precise","stimolare e rafforzare i fattori che contribuiscono l'apprendimento","acquisire nuove conoscenze teorico manuali","approfondire conoscenze teorico manuali","FE - migliorare la capacità di sviluppare nuove idee e efficienza nel pianificare le azioni","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 21,
+            "domanda_title":
+                "Osservazioni outcome",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "text": "",
+
+            "type":"text"
+          },
+          {
+            "domanda_id": 22,
+            "domanda_title":
+                "COMPORTAMENTO PROBLEMA prima dell'intervento di musicoterapia (inserire il numero di comportamenti problema letti nel contatore prima dell'intervento di musicoterapia) ",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "text": "",
+
+            "type":"text"
+          },
+          {
+            "domanda_id": 23,
+            "domanda_title":"COMPORTAMENTO PROBLEMA durante l'intervento di musicoterapia (inserire il numero di comportamenti problema letti nel contatore prima dell'intervento di musicoterapia) ",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "text": "",
+
+            "type":"text"
+          },
+          {
+            "domanda_id": 24,
+            "domanda_title":
+                "Tipologia di intervento",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value": ["atteggiamento comportamentale","atteggiamento intersoggetivo - relazionale","atteggiamento pedagogico - educativo","musicoterapista direttivo","musicoterapista non direttivo","caregiver","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 25,
+            "domanda_title":
+                "il ragazzo durante l'intervento ha avuto: ",
+            "domanda_desc": "",
+            "is_obbligatoria": false,
+            "check_value":["crisi epilettica (verificare l'apposita scheda)","comportamento problema (verificare l'apposita scheda)","comportamento provocatorio continuo","comportamento provocatorio modulato in positivo","agitazione continua","agitazione modulata in positivo","tensione e distensione","ALTRO"],
+
+            "type":"check_value"
+          },
+          {
+            "domanda_id": 26,
+            "domanda_title":
+                "Stato umorale Finale",
+            "domanda_desc": "Indicare lo stato in cui si trova l'assistito/gruppo nel momento in cui finisce l'incontro di musicoterapia e viene riportato nella propria classe di appartenenza.\n\nE' possibile indicare al massimo una coppia di possibili 'stati'.\n Vedi Legenda sopra. ",
+            "is_obbligatoria": false,
+            "check_value":["eccitato","euforico","sereno","passivo","triste","inquieto","arrabbiato","auto/etero aggressivo"],
+
+            "type":"check_value"
+          }
+        ]
+      },
+      {
+        "sezione_id": 2,
+        "sezione_name": "Sezione3",
+        "sezione_title": "Considerazioni Finali",
+        "sezione_subtitle": "",
+        "sezione_desc": "",
+        "domande": [
+          {
+            "domanda_id": 27,
+            "domanda_title": "Data e ora",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "data": "",
+
+            "type":"data"
+          },
+          {
+            "domanda_id": 28,
+            "domanda_title": "Durata",
+            "domanda_desc":
+                "",
+            "is_obbligatoria": false,
+            "label":["30 minuti","45 minuti","60 minuti","ALTRO"],
+
+            "type":"label"
+          }
+    ]
+}]
+  }

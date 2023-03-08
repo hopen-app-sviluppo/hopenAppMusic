@@ -1,0 +1,343 @@
+{
+  "form_id": 0,
+  "form_name": "Musicoterapia",
+  "tutorial_title":"VMT-D Tutorial",
+  "sezioni": [
+    {
+      "sezione_id": 0,
+      "sezione_title": "Età musicale 0-2 anni",
+      "sezione_desc": "L'assistito partecipa con poca consapevolezza dell'ambiente (E. Gordon).\n\nÈ la fase della ricerca di un piacere a livello gestuale, tattile e uditivo (F. Delalande).\n\nIncontrare musicalmente l'assistito (Nordoff-Robbins).",
+      "image_path": "assets/02.png",
+      "domande": [
+        {
+          "domanda_id": 0,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Gira la testa/lo sguardo/assume una postura per  orientarsi verso la fonte sonora/musica (ascolto):",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 1,
+          "domanda_title":
+          null,
+          "domanda_desc":
+          "Ha una risposta motoria durante i silenzi (produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 2,
+          "domanda_title":
+              null,
+          "domanda_desc": "Osserva ma non produce risposte vocali (ascolto) ",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 3,
+          "domanda_title":
+             null,
+          "domanda_desc":
+              "Comincia a partecipare con movimenti non coordinati e risposte vocali (es. lallazione) anche se non riprendono i suoni presenti nell'ambiente (ascolto-produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 4,
+          "domanda_title":
+             null,
+          "domanda_desc":
+              "Esegue movimenti che sembrano essere stimolati dall'ambiente, pur non essendo in diretta e intenzionale relazione con questo (ascolto-produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 5,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Vocalizza una risposta che è intenzionalmente correlata alla musica nell'ambiente (produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 6,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Imita il pattern che il rilevatore gli ha rivolto o esegue un proprio pattern ma non  necessariamente con precisione e accuratezza (ascolto-produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        }
+      ]
+    },
+    {
+      "sezione_id": 1,
+      "sezione_title": "Età musicale 2-4 anni",
+      "sezione_desc": "Partecipa con pensiero consapevole focalizzato primariamente sull'ambiente (E. Gordon).\n\nÈ la fase di un investimento simbolico dell'oggetto musicale messo in rapporto con un vissuto (esperienza del movimento, affetti) o con certi aspetti della cultura: miti, vita sociale (F. Delalande).\n\nEvocare risposte musicali (Nordoff-Robbins).",
+      "domande": [
+        {
+          "domanda_id": 7,
+          "domanda_title":
+             null,
+          "domanda_desc":
+              "Produce dei pattern ritmici  durante le sessioni che lo  contraddistinguono e caratterizzano (produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 8,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Produce dei pattern melodici  durante le sessioni che lo  contraddistinguono e caratterizzano (produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 9,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Compie tentativi di eseguire i pattern tonali/ritmici proposti dal musicoterapista dimostrando di rendersi conto della differenza tra le proprie risposte e pattern proposti   (ascolto-produzione)",
+          "is_obbligatoria": false,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 10,
+          "domanda_title":
+             null,
+          "domanda_desc":
+              "Continua ad imparare il processo dell'imitazione impegnandosi in dialoghi di pattern (ascolto-produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 11,
+          "domanda_title":
+              null,
+          "domanda_desc": "Esegue vocalizzi intonati (produzione) ",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        }
+      ]
+    },
+    {
+      "sezione_id": 2,
+      "sezione_title": "Età mentale 4-6 anni",
+      "sezione_desc": "Partecipa con pensiero consapevole focalizzato su se stesso (E.Gordon).\n\nÈ la fase  della soddisfazione intellettuale che risulta dal gioco di regole (F. Delalande).\n\nSviluppare abilità musicali, libertà espressività, rispondenza reciproca (Nordoff-Robbins).",
+      "domande": [
+        {
+          "domanda_id": 12,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Si impegna nel processo di imitazione (produzione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 13,
+          "domanda_title":
+             null,
+          "domanda_desc":
+              "Attraverso il confronto con il modello dell'adulto realizza che il proprio respiro, movimento e canto/vocalizzo non sono coordinati",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 14,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Attraverso la ripetizione impara a muoversi e cantare (vocalizzo) per quanto i suoi movimenti possano essere ancora non coerenti con il modello proposto (ascolto-produzione-educazione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 15,
+          "domanda_title":
+              null,
+          "domanda_desc":
+              "Si sincronizza con i pattern melodici e ritmici proposti (educazione)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        }
+      ]
+    },
+    {
+      "sezione_id": 3,
+      "sezione_title": "Mood - modo di essere",
+      "image_path": "assets/mood.png",
+      "sezione_desc": "Questa sessione indaga lo stile con cui la persona interagisce nella relazione con il setting, il terapista e la propria emotività.",
+      "domande": [
+        {
+          "domanda_id": 16,
+          "domanda_title": "Esplora la stanza",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità mette in atto modalità multi sensoriali (visive, tattili, olfattive, acustiche, gustative) che gli permettono di esplorare l'ambiente circostante.",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 17,
+          "domanda_title": "Esplora gli strumenti musicali (oggetti)",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità mette in atto modalità sensoriali (visive, tattili, olfattive, acustiche, gustative) che gli permettono di esplorare gli strumenti musicali proposti.",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 18,
+          "domanda_title": "Entra in relazione con il valutatore",
+          "domanda_desc":
+              "Si intende se l'assistito è in grado di relazionarsi con l'altro da sé (terapista) esplicitando bisogni  e le attività gradite o sgradite, al di là della modalità di relazione (stereotipata, aggressiva, equilibrata ecc...)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 19,
+          "domanda_title":
+              "Presenta un atteggiamento sereno per entrare in relazione",
+          "domanda_desc":
+              "Si intende se l'assistito presenta una mimica serena e/o sorridente, senza atteggiamenti difensivi o momenti di frustrazione legati semplicemente all'entrare in relazione con l'altro da sé (terapista) o con l'oggetto (strumento musicale)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 20,
+          "domanda_title":
+              "Presenta un atteggiamento aperto per entrare in relazione",
+          "domanda_desc":
+              "Si intende se l'assistito presenta una mimica serena e/o sorridente, senza atteggiamenti difensivi o momenti di frustrazione legati semplicemente all'entrare in relazione con l'altro da sé (terapista) o con l'oggetto (strumento musicale)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 21,
+          "domanda_title":
+              "Presenta un atteggiamento organizzato per entrare in relazione",
+          "domanda_desc":
+              "Si intende se l'assistito è in grado di sviluppare una serie di comportamenti (anche rituali) che lo portano ad ottenere ciò che desidera e a risolvere i problemi pratici legati a tale scopo",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 22,
+          "domanda_title":
+              "Presenta un controllo nella gestione dell'emotività",
+          "domanda_desc":
+              "Si intende se l'assistito è in grado di mantenersi in equilibrio nella manifestazioni delle emozioni (senza sviluppare manifestazioni estreme e difficilmente contenibili di stati emotivi come euforia, eccitazione, agitazione, auto o etero aggressione, paura, tristezza etc)",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        }
+      ]
+    },
+    {
+      "sezione_id": 4,
+      "sezione_title": "Musicofilia",
+      "sezione_desc": "Questa sessione indaga in che modo l'assistito si rapporta con l'esperienza acustica, sonoro-musicale.\n\nCi permette di capire come l'assistito percepisce la musica, come la elaborata e utilizza all'interno del suo percorso storico evolutivo e in relazione con l'altro da sé.\n\nDi seguito vengono fornite alcune raccomandazioni riguardanti l'uso delle opzioni di risposta:\n\n1 = “assente”  è una risposta adeguata nel caso in cui la persona non faccia mai o non sia mai soggetta a quanto specificato nel contenuto dell’ item.\nPer esempio, per rispondere a Mimica, si dovrà marcare l'opzione assente se, durante l'osservazione, la persona non lo fa mai.\n\n2 = “Qualche volta” è la risposta appropriata nel caso in cui la persona faccia o sia soggetta solo qualche volta (ma non nella maggior parte dei casi), a quanto specificato nell’item.\nPer esempio, per rispondere a Mimica, si dovrà marcare l'opzione qualche volta se la persona in questione lo fa 2 o 3 volte in un incontro di osservazione.\n\n3 = “Frequentemente” è la risposta idonea nel caso in cui la persona faccia o sia frequentemente soggetta a quanto specificato nell’item, ossia nella maggior parte dei casi.\nAd esempio, per rispondere a Mimica, si dovrà marcare l'opzione frequentemente se la persona in questione lo fa tra i 4 o i 6 volte durante l'incontro.\n\n4 = “Sempre” è la miglior opzione nel caso in cui la persona faccia o sia sempre soggetta a quanto specificato nell’item.\nAd esempio, per rispondere a Mimica, si dovrà marcare l'opzione sempre se la persona in questione lo fa  in modo coerente e tutte le volte (anche nel caso in cui ci sia qualche eccezione).\n\nCome valuta la persona difronte ad un'esperienza musicale (attiva o recettiva) esperita in coppia in relazione alla:",
+      "domande": [
+        {
+          "domanda_id": 23,
+          "domanda_title": "Mimica",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità è in grado di proporre variazione mimiche",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 24,
+          "domanda_title": "Attività vocalica",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità utilizza la voce (come vocalizzo o come parole) come modalità espressiva",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 25,
+          "domanda_title": "Attività motoria",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità utilizza il movimento (tensivo, distensivo, avvicinamento, allontanamento, danza-movimento e in altre forme) come modalità espressiva",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 26,
+          "domanda_title": "Stereotipie",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità mette in atto le proprie stereotipie (se esistenti) in relazione all'esperienza musicale",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        },
+        {
+          "domanda_id": 27,
+          "domanda_title": "Aggancio oculare",
+          "domanda_desc":
+              "Si intende se l'assistito all'interno della sua specifica diagnosi funzionale della disabilità utilizza lo sguardo (in caso di cecità la direzionalità verso la fonte sonoro o il posizionamento in una specifica condotta di ascolto) come modalità espressivo-relazionale",
+          "is_obbligatoria": true,
+          "punteggio_max": 4,
+          "punteggio_min": 1,
+          "type": "score"
+        }
+      ]
+    }
+  ],
+  "form_desc": "Questo test di valutazione musicale iniziale rivolto a ragazzi con disabilità intellettiva permette di investigare tre macro aree relative al rapporto che l'uomo ha sviluppato con i suoni e la musica, offre la possibilità di fotografare:\n\n1) L' Età musicale; cioè l' apprendimento/euridizione musicale dell'assistito.\nPermette di definire l’età musicale dell'assistito e di fare una seguente comparazione con la sua età reale e l'età mentale diagnostica con test di valutazione.\n\n2) Il Mood (Modo di Essere); cioè il modo in cui l'assistito interagisce nella relazione con il setting musicoterapico, il terapista e nella gestione dell’emotività.\n\n3) La Musicofilia; cioè il modo in cui l'assistito percepisce la musica, come la elabora e utilizza all'interno del suo percorso storico evolutivo e nella complessità della sua vita.\n\n\nTutto parte dall’idea che gli assistiti con pluri disabilità, sindromici e con disabilità intellettiva anche gravissima sviluppano una capacità di elaborazione e utilizzo del suono molto più elaborata di quanto possiamo immaginare.\n\nCosì, come cerchiamo di sviluppare apprendimenti tramite il supporto visivo o tattile, può essere fatto in modo significativo anche attraverso il suono.\n\nQuesto è chiaro osservando i nostri assisiti che non possono spostarsi nello spazio (tetra paresi spastica, PCI ecc.), che non possono afferrare oggetti o anche se lo fanno (ritardo mentale, X fragile, autismo, sindrome di down ecc) non hanno un uso funzionale dell'oggetto, un uso che li portino a sviluppare schemi di apprendimento.\n\nBene, entrando in relazione, accogliendo  e osservando i nostri assisiti in un'esperienza sonoro-musicale è sempre più chiaro come questi sviluppino una specifica capacità di differenziare lo stimolo acustico che li porta:\n\n- A distinguere i timb\n\n- Ad avere gusti musicali specifici (cultura).\n\n- A favorire un tipo di strumento al posto di un altro (forma, materiale costitutivo, colore, odore).\n\n- A gradire maggiormente il suono prodotto da strumenti di legno o di metallo, a corde o a membrana (timbro-qualità).\n\n- A gradire maggiormente esperienze ritmiche ad esperienze melodiche o viceversa.\n\nStupisce la capacità che i nostri assistiti hanno, pur vivendo spesso in un mondo non-verbale, di intonare il centro tonale di un improvvisazione musicale tramite il vocalizzo e di improvvisare utilizzando altezze specifiche coerenti con lo sfondo armonico proposto e/o di cambiare atteggiamenti in relazione al suono somministrato.\n\n\nQuesta scheda ha la presunzione di affermare con certezza che ciò che “passa” da un punto di vista acustico rimane nella memoria e permette all'assistito con lieve, media e grave disabilità intellettiva  di sviluppare una serie di informazioni proto-comunicative significative che vengono impresse (forma, intensità e durata) negli eventi, diventando espressione di contenuti relazionali-affettivi.\n\nQuindi, questa scheda nasce come strumento di Valutazione iniziale in ambito Musicoterapico. \nLe teorie di riferimento che fondano la (VMt-D) sono:\n\n1) Età musicale: partendo dalla teoria della Music Learning Theory vengono comparate le competenze musicali dell' assistito  in relazione agli stadi di Audition preparatoria fornendoci informazioni in merito all’età musicale del ragazzo/bambino in relazione alle competenze musicali.\n\nCi permette così di comparare l'età musicale rilevata da questa scheda  con l'età mentale del ragazzo (rilevata con schede accreditate) e l'età reale del ragazzo.\n\nLa VMt-D ci indicherà in quale area musicale evolutiva  possiamo collocare il ragazzo/bambino (Acculturazione, Imitazione, Assimilazione) e andare a proporre attività musicali specifiche per farlo evolvere nel rapporto con il suo mondo acustico, sonoro-musicale e di conseguenza relazionale (CFR - Introduzione alla Musica Learning Theory di E. Gordon di A.Sangiorgio)\n\nUn' altra teorizzazione di riferimento  è quella sugli universali musicali rintracciati da F. Delalnde.\nIl semiologo francese ha analizzato gli atteggiamenti sonoro-musicali dei bambini, prima che intervengono  condizionamenti culturali. L'osservazione sistemica gli ha permesso di individuare le costanti nel comportamento musicale infantile che da Delalande vengono definite condotte.\nIn sintesi per Delalande la musica è un gioco senso-motorio, di movimenti e percezioni che innescano il piacere della reiterazione e il gioco di esercizio, un gioco simbolico, ovvero di investimento emotivo e simbolico del suono che diviene portatore di idee, affetti, miti, visioni; infine un gioco di regole, di combinazione dei suoni, secondo una sitassi interna (CFR - Per una pedagogia dell'uomo musicale G. Mocchi).\n\n2) Il Mood - “modo di essere”: è stato pensato all’interno dello studio dell’infant reserch, utilizzando i domini dei vari possibili stili di attaccamento: sicuro, evitante, resistente/ambivalente, disorganizzato/disorientato in relazione alla modalità in cui l'assistito entra in relazione con il setting, il terapista e nella gestione dell’emotività.\n\nQuindi, potremmo trovare l'assistito che, in relazione alla propria diagnosi funzionale della disabilità, esplora la stanza e gli strumenti musicali, cerca un contatto fisico con il valutatore, presenta un atteggiamento sereno, aperto ed organizzato per entrare in relazione e che ha un buon controllo dell'emotività...in questo caso ci troveremmo in una situazione in cui l'assistito ha un Mood Sicuro; all'opposto ci troveremo difronte ad un assistito con un Mood Disorganizzato/disorientato.\n\nAGGIUGERE STERN TREVARTEN INTERSOGGETTIVITA'.\n\n3) La Musicofilia: cioè il modo in cui l'assistito  percepisce la musica, come la elabora e utilizza all'interno del suo percorso storico evolutivo e nella complessità della sua vita... in sintesi: come viene esplicitata la passione per la musica da parte dei nostri assistiti.\n\nTale termine viene preso in prestito citando l'omonimo testo di Oliver Sacks con cui ha indagato il rapporto tra il cervello e gli organi uditivi, tra questi e le emozioni, la relazione tra eccitazione vitale o depressione ferale e musica, la capacità dell’organismo di autoriparare le proprie ferite neurologiche potenziando alcune abilità per compensare quelle carenti.\n\nDa qui la partecipazione ad un convegno il 7 novembre 2016 all'ospedale di Arezzo e l'intervento di Luccherino in cui spiegava le differenti condotte che possiamo assumere nei confronti di un' esperienza musicale.\nCosì questa parte della scheda indagherà come l'assistito si pone nei confronti della musica vivendola in modo razionale o emotiva, ponendosi a fianco o dentro la musica, possiamo girare intorno alla musica, assaggiandola di tanto in tanto o porsi in relazione con essa.\n\n\nI dati raccolti dall'Età musicale, il Mood e la Musicofilia verranno sintetizzati in 3 grafici e ci permetteranno di avere una valutazione iniziale del nostro assistito che potrà essere comparata con una rivalutazione durante lo sviluppo del processo relazionale sonoro-musicale.\n\nDi seguito vengono fornite alcune raccomandazioni riguardanti l'uso delle opzioni di risposta:\n\n1 = “Mai”  è una risposta adeguata nel caso in cui la persona non faccia mai o non sia mai soggetta a quanto specificato nel contenuto dell’ item.\nPer esempio, per rispondere a gira la testa, guarda verso la fonte sonora/musica, si dovrà marcare l'opzione mai se, durante l'osservazione, la persona non lo fa mai.\n\n2 = “Qualche volta” è la risposta appropriata nel caso in cui la persona faccia o sia soggetta solo qualche volta (ma non nella maggior parte dei casi), a quanto specificato nell’item.\nPer esempio, per rispondere a gira la testa, guarda verso la fonte sonora/musica, si dovrà marcare l'opzione qualche volta se la persona in questione lo fa 2 o 3 volte in un incontro di osservazione.\n\n3 = “Frequentemente” è la risposta idonea nel caso in cui la persona faccia o sia frequentemente soggetta a quanto specificato nell’item, ossia nella maggior parte dei casi.\nAd esempio, per rispondere a gira la testa, guarda la fonte sonora/musica, si dovrà marcare l'opzione frequentemente se la persona in questione lo fa tra i 4 o i 6 volte durante l'incontro.\n\n4 = “Sempre” è la miglior opzione nel caso in cui la persona faccia o sia sempre soggetta a quanto specificato nell’item.\nAd esempio, per rispondere a gira la testa, guarda la fonte sonora/musica, si dovrà marcare l'opzione sempre se la persona in questione lo fa  in modo coerente e tutte le volte (anche nel caso in cui ci sia qualche eccezione).\n\n\nLorenzo Capolsini - gennaio 2017 - Revisionato ottobre 2020"
+}

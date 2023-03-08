@@ -1,0 +1,49 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "music",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "music (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "music (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "mobile",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+          },
+          {
+            "name": "tablet",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5556"
+          },
+          {
+            "name": "windows",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "windows"
+          },
+    ],
+    "compounds": [
+        {
+          "name": "All Devices",
+          "configurations": ["mobile", "windows"]
+        }
+      ]
+}

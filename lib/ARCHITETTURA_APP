@@ -1,0 +1,43 @@
+Spiegazione architettura APP:
+
+strutturata in diverse cartelle principali:
+
+
+database -> ci sono i file che gestiscono il database interno SQFlite
+
+api => file che gestiscono le interazioni tra app con la parte delle news e dei tutorial
+
+models -> ci sono i miei modelli (classi) con cui lavoro nell'APP
+
+provider -> classi che mi permettono di rendere lo stato del model di riferimento visibile a diverse pagine nell'APP  
+            Authentication Provider -> Si occupa della gestione dell'autenticazione, ha i metodi login, registrati, logout, ecc.
+            user Provider -> classe che mi permette di gestire l'utente corrente (mi fa accedere alle info dell'utente)
+                            Comunica con il database in modo da poter creare-leggere-cancellare-modificare utente nel database interno
+            settings Provider => Gestisce le informazioni utili nell'intera app (lingua, connessione internet, theme, per ora anche La dimensione dei testi)
+
+pages -> pagine all'interno delle APP. 
+        Ogni sottocartella è una pagina nell'app, o un'insieme di pagine.
+        Ogni pagina è composta da macroAree (insieme di widget), queste macroAree sono dentro la cartella view.
+        Una view è composta a sua volta da diversi widget (componenti). I widget sono nella cartella widget
+        Per gestire le funzionalità della pagina, ci sono le classi apposite. Si trovano nella cartella Helper.
+
+Di seguito alcune sottocartelle di Pages:
+
+        assistito_pages => cartella contiene tutte le pagine che hanno a che fare con gli assistiti
+
+        initial_pages => cartella che contiene tutte le pagine che vengono mostrate all'avvio dell'app
+                        Quindi:
+                                -Pagina di Autenticazione (login,signup...)
+                                -Splash Page
+                                -HomePage
+        forms_page => cartella che contiene tutte le pagine che hanno a che fare con i form.
+        common_widgets => cartella che contiene degli widget comuni a molte pagine.
+
+Altre cartelle:
+
+responsive_widget => cartella che contiene tutti gli widget utili a rendere l'app responsiva (cioè che si adatta ai vari schermi (mobile,tablet,web)).
+
+
+
+
+

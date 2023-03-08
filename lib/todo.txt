@@ -1,0 +1,66 @@
+
+
+
+
+abilitare bottone conferma registrazione
+
+
+cambiare colori, dimensioni, weight ai testi dal textTheme
+
+
+todo: UI compilazione Form, database form.
+
+
+Salvare bozza compilazione Form (se durante compilazione viene chiusa App, devo salvarmi il form fino a quel punto)
+Quano riapre App e vuole ricompialre Form => Riprendere Da zero o continuare con il salvataggio?
+
+
+
+nomeApp: musicoterApp
+
+
+
+DATABASE COMPILAZIONE FORM
+FIClients => assistiti
+
+
+Fiusers => terapista
+
+
+compilazione Form => id terapista , id assistito, timestamp creazione, 
+
+
+
+GRAFICA APP:
+
+HomePage (pagina profilo terapista) => credenziali, Numero Assistiti, numero compilazioni, 3 bottoni (compilaForm, form compilati, grafici assistiti)
+
+Profilo assistito:
+
+credenziali, avatar con iniziali (AM), colore blu se maschio, rosa se femmina
+
+
+
+LOGIN PER ORA FUNZIONA SOLO INTERNAMENTE =>
+
+NELLA REGISTRAZIONE SALVO TUTTI I DATI CORRETTAMENTE
+NEL LOGIN CONTROLLO SOLO SE QUELL'EMAIL ESISTE NEL DB INTERNO!
+
+
+
+TODO 20-10-2022 =>
+x Mettere su campo utente i feedback inviati !
+
+X così posso aggiornare i suoi DATI
+X aggiornare dati su profilo utente e assistito (compilazinoi fatte, )
+
+X Pagina singolo feedback !
+
+ X   definire icone per tabar su feedback page
+
+
+
+
+ Immagini mood e 02 prese su
+ 
+ https://www.freepik.com/search?format=search&last_filter=selection&last_value=1&query=child&selection=1&type=vector
