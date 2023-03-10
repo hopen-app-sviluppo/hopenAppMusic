@@ -28,16 +28,19 @@ class DbRepository {
     final String dbPath = await takeDbPath();
     final String path = join(dbPath, _databaseName);
     //* se il database esiste già allora
+    print("ecco db path: ${path}");
     if (await databaseExists(path)) {
       _database = await createInternalDb(path: path, createDb: false);
       return;
     }
     //* il Db interno non esiste, allora controllo se era stato fatto un Backup in precedenza
     final backUpDir = await getExternalDir();
+    print("ecco backupdir: ${backUpDir?.path}");
     File source = File(
       join(backUpDir?.path ?? "backUpDirectoryDoesnExists", _databaseName),
     );
     try {
+      print("vediamo soufce: ${source.path}");
       //se backUp del db non esiste, allora l'utente accede per la prima volta nell'app, e lo creo da zero
       if (!await source.exists()) {
         //  print("il file nel path ${source.path} non esisteee");
@@ -118,8 +121,10 @@ class DbRepository {
       // il percorso dove salverò il file di backUp (su Windows è C:\Users\andre\Downloads\music.db)
       final newPath = join(dirCopyTo.path, _databaseName);
       //copio il file in quella directory, il nome sarà music.db
-      await source.copy(newPath);
+      final file = await source.copy(newPath);
+      print("fatto: ecco FILE => $file e path: ${file.path}");
     } catch (error) {
+      print("erroreeee: $error");
       rethrow;
     }
   }
@@ -134,6 +139,9 @@ class DbRepository {
       // dbPath =  await windows_db.databaseFactoryFfi.getDatabasesPath();
       //* questo sta su: C:\Users\andre\AppData\Roaming\it.hopenstartup.www\music
       dbPath = (await getApplicationSupportDirectory()).path;
+    }else if(Platform.isIOS){
+      //come da indicazioni, per IOS il percorso del DB sta su
+      dbPath = (await getLibraryDirectory()).path;
     } else {
       dbPath = await getDatabasesPath();
       //se platform è android, dbPath è
@@ -143,6 +151,7 @@ class DbRepository {
 
 //permessi nel leggere - scrivere nella memoria interna
   Future<void> checkStoragePermission() async {
+    if(Platform.isIOS) return;
     final status = await Permission.storage.status;
     if (!status.isGranted) {
       //richiedo i permessi
@@ -155,6 +164,7 @@ class DbRepository {
 
   //permessi nel creare directory nella memoria esterna all'app
   Future<void> checkExternalStoragePermission() async {
+    if(Platform.isIOS) return;
     final status = await Permission.manageExternalStorage.status;
     if (!status.isGranted) {
       //richiedo i permessi
@@ -169,14 +179,22 @@ class DbRepository {
 //su windows => C:\Users\andre\Downloads
 //su android => storage/emulated/0/Sqlite Backup
   Future<Directory?> getExternalDir() async {
-    if (Platform.isWindows) {
+    if (Platform.isWindows || Platform.isMacOS) {
       return await getDownloadsDirectory();
     }
     if (Platform.isAndroid) {
       return Directory("storage/emulated/0/Sqlite Backup");
     }
-    //IOS e macOS????
-    //per macOS forse va bene la stessa per windows
+    if(Platform.isIOS){
+      //getApplicationDocumentsDirectory
+      //esempio directory IOS =>  /Users/andrea/Library/Developer/CoreSimulator/Devices/CF0EE693-8DC0-43F6-82D6-DC511D10291A/data/Containers/
+      //                           Data/Application/97F1F6C4-1C40-4447-9D46-39AEC1B58F9D/Documents
+
+  //SU IOS NON RIESCO A RENDERE PERSISTENTE UNA COSA CHE SALVO, POSSO VEDERE IL DB DALLA CARTELLA MA SE DISINSTALLO L'APP VIENE PERSO QUEL CONTENUTO
+  // L'UTENTE DOVREBBE SALVARLO PRIMA DI DISINSTALLARE (OCCHIO ALLA SICUREZZA)
+      return await getApplicationDocumentsDirectory();
+      
+    }
     return null;
   }
 
